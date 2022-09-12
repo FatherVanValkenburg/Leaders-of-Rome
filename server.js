@@ -22,9 +22,6 @@ app.use(express.static('public'))
 
 const roman = require("./models/romans.js");
 
-app.get("/", (req,res) => {
-    console.log("We are Listening1")
-    res.send("so you have finally arrived....")
 })
 app.get("/Homepage", (req, res) => {
     roman.find({},(error,allRoman) => {
