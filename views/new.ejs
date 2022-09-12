@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <title>New Emperors</title>
+    <%- include('./partials/head.ejs')%>
+
+	</head>
+  <body>
+    <h1>Engrave your name here! Let your name go down in the Halls of Eternity!</h1>
+    <form action="/roman" method="POST">
+        Name: <input type="text" name="name" /><br />
+        Position: <input type="text" name="role" /><br />
+        Returning from Conquest?: <input type="checkbox" name="conquering" /><br />
+        <input type="submit" value="Become Part of History" />
+      </form>
+  </body>
+</html>

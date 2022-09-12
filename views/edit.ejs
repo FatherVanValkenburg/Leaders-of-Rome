@@ -1,0 +1,22 @@
+
+<html lang="en">
+  <head>
+    <title>Romans List</title>
+    <%- include('./partials/head.ejs')%>
+
+  </head>
+
+  <body>
+    <h1>Revise History</h1>   
+      <form action="/Homepage/<%=roman._id%>?_method=PUT" method="POST">
+      Name: <input type="text" name="name" value="<%=roman.name%>" /><br />
+      Role: <input type="text" name="role" value="<%=roman.role%>" /><br />
+      Returning from Conquest?: <input type="checkbox" name="completed" <% if(roman.conquering
+      = true){ %> checked <% } %> />
+      <br />
+      <input type="submit" value="Submit Changes" />
+    </form>
+  </body>
+</html>
+
+

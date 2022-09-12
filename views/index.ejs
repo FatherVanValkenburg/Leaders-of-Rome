@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <title> all the romans </title>
+    <%- include('./partials/head.ejs')%>
+
+	</head>
+	<body>
+		<h1>the romans are comming</h1>
+		<ul>
+			<% roman.forEach(roman => { %>
+			<li><a href="/Homepage/<%= roman._id; %>"> <%= roman.name; %> </a>
+        <form action="/Homepage/<%= roman.id %>?_method=DELETE" method="POST">
+          <input type="submit" value="DELETE" />
+        </form>
+        <a href="/homepage/<%=roman._id %>/edit">Edit</a>
+      </li>
+			<% }); %>
+
+		</ul>
+<p> I would like to order a hamburger</p>
+    <nav>
+      <a href="/Homepage/new">Add to the Hallowed Halls</a>
+    </nav>
+	</body>
+</html>
