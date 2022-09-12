@@ -10,9 +10,14 @@
 		<nav>
 			<a href="/homepage">Back to Index</a>
 		</nav>
-		<h1><%= roman.name; %></h1>
-		Role: <%= roman.role; %>
-		<br />
-		returning from conquest!: <%= roman.conquest; %>
+		<h1>Hail <%= roman.name; %>, <%= roman.role; %> of rome! <br> Long may his reign Last! </h1>
+		<br/>
+		 
+		<% if(roman.conquest === true) { %> 
+			Returning in Glory to Rome!
+			<% } else { %> 
+				Proudly Defending Mother Rome!
+				<% } %>
+		  
 	</body>
 </html>
