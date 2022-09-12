@@ -6,14 +6,14 @@
 
 	</head>
 	<body>
-		<h1>the romans are comming</h1>
+		<h1>The Honored Champions of Rome!</h1>
 		<ul>
 			<% roman.forEach(roman => { %>
-			<li><a href="/Homepage/<%= roman._id; %>"> <%= roman.name; %> </a>
+			<li><a href="/Homepage/<%= roman._id; %>"> The Great And Powerful <%= roman.name; %>!</a>
         <form action="/Homepage/<%= roman.id %>?_method=DELETE" method="POST">
           <input type="submit" value="DELETE" />
         </form>
-        <a href="/homepage/<%=roman._id %>/edit">Edit</a>
+        <a href="/homepage/<%=roman._id %>/edit">Revise Their Story</a>
       </li>
 			<% }); %>
 

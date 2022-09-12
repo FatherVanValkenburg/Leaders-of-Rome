@@ -1,8 +1,8 @@
-/* ================ */
+
 /*     GENERAL      */
-/* ================ */
+
 body {
-    background-image: url('https://imgur.com/9UqKJOz.png');
+    background-image: url("https://wallpaperaccess.com/full/115106.jpg");
     background-size: cover;
     background-repeat: repeat;
     margin: 0;
@@ -13,9 +13,9 @@ body {
     text-decoration: none;
   }
   
-  /* ================ */
+
   /*   CONTAINERS     */
-  /* ================ */
+
   .body-overlay {
     background: rgba(245, 245, 245, 0.4);
     width: 100%;
@@ -40,9 +40,9 @@ body {
     justify-content: space-between;
   }
   
-  /* ================ */
+
   /*      HEADER     */
-  /* ================ */
+
   header {
     margin-bottom: 2em;
   }
@@ -59,15 +59,14 @@ body {
     text-transform: uppercase;
   }
   header li a {
-    color: rgb(152, 130, 110);
+    color: rgb(255, 123, 0);
   }
-  header h1 {
-    color: rgb(129, 110, 124);
+   h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
   }
   
-  /* ================ */
   /*      INDEX       */
-  /* ================ */
   ul {
     list-style-type: none;
     padding: 0;
@@ -111,14 +110,14 @@ body {
     display: block;
   }
   
-  /* ================ */
   /*       SHOW       */
-  /* ================ */
   h2, h3 {
+    text-align: center;
     font-family: 'Inconsolata', courier;
     margin: 0 0 0.5em 0;
-    color: rgb(129, 110, 124);
-  }
+    color: white;
+    font-weight: bolder;
+  }rgb(114, 110, 129)rgb(53, 13, 213)
   h3 {
     margin-top: 0.5em;
   }
@@ -141,9 +140,9 @@ body {
     color: rgb(129, 110, 124);
   }
   
-  /* ================ */
+ 
   /*       NEW        */
-  /* ================ */
+
   input[type="text"], input[type="submit"] {
     width: 60%;
     padding: 1em;
@@ -172,9 +171,9 @@ body {
     color: rgb(152, 130, 110);
   }
   
-  /* ================ */
+
   /*     FOOTER       */
-  /* ================ */
+ 
   footer {
     margin-top: 2em;
     font-weight: 300;
