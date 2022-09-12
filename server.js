@@ -80,6 +80,3 @@ app.delete("/homepage/:id", (req, res) => {
     )
   })
 
-app.listen(3000, () => {
-    console.log("We are Listening2")
-})
